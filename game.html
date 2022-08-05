@@ -15,18 +15,20 @@
     <script src="https://kit.fontawesome.com/885f7b4dec.js" crossorigin="anonymous"></script>
 
     <!-- favicon -->
-    <link rel='shortcut icon' type='image/x-icon' href='favicon-title.png' />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
 
     <title>THE R.P.S.L.S. GAME</title>
 </head>
-<body>
+<body id="game-page">
 
     <!-- title -->
-    <h1>Rock~Paper~Scissors~Lizard~Spock</h1>
+    <h1>Rock ~ Paper ~ Scissors ~ Lizard ~ Spock</h1>
     <h2>~The Big Bang Theory Game~</h2>
+    <br>
 
     <!-- link to game rules page -->
-    <a href="index.html" class="links">GAME RULES</a>
+    <a href="index.html" class="links" id="game-link">GAME RULES</a>
+    <br><br>
 
     <!-- game zone -->
     <div class="game-zone">
@@ -46,11 +48,11 @@
     <div id="result"></div>
 
     <div class="choices">
-        <button data-type="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
-        <button data-type="paper"><i class="fa-solid fa-hand"></i></button>
-        <button data-type="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
-        <button data-type="lizard"><i class="fa-solid fa-hand-lizard"></i></button>
-        <button data-type="spock"><i class="fa-solid fa-hand-spock"></i></button>
+        <button id="rock" data-type="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button id="paper" data-type="paper"><i class="fa-solid fa-hand"></i></button>
+        <button id="scissors" data-type="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        <button id="lizard" data-type="lizard"><i class="fa-solid fa-hand-lizard"></i></button>
+        <button id="spock" data-type="spock"><i class="fa-solid fa-hand-spock"></i></button>
     </div>
 
    <script src="assets/js/script.js"></script> 
