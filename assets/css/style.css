@@ -1,0 +1,78 @@
+/* global styling */
+
+body {
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    background-color: #f0edaa;
+    font-weight: bolder;
+    position: relative;
+}
+
+/* background image */
+
+#background {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* titles */
+h1 {
+    margin-top: 0;
+}
+
+/* greeting */
+
+.welcome {
+    margin: 2em;
+}
+
+/* links */
+
+.links {
+    color: black;
+    text-decoration: none;
+    border: 2.5px dotted black;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+.links:hover {
+    font-size: 1.3em;
+}
+
+/* rules area */
+
+.game-rules {
+    width: 60%;
+    margin: 2em auto;
+    font-size: 1.2em;
+}
+
+.rules-title {    
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+}
+
+/* rules image */
+
+#rules-img {
+    width: 25%;
+}
+
+/* rules video */
+
+#video-div {
+    margin: 2em auto;
+}
+
+#video {
+    border-radius: 25px;
+}

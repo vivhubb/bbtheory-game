@@ -18,39 +18,46 @@
     <!-- favicon -->
     <link rel='shortcut icon' type='image/x-icon' href='favicon-title.png' />
 
-    <title>R.P.S.L.S. GAME</title>
+    <title>THE R.P.S.L.S. GAME</title>
 </head>
 
 <body>
+    <!-- background image -->
+    <img src="assets/images/background.jpg" alt="cloudy colorful background image" id="background">
 
     <!-- title -->
     <h1>Rock~Paper~Scissors~Lizard~Spock</h1>
     <h2>~The Big Bang Theory Game~</h2>
 
-    <h3>~Welcome, Gamer!~</h3>
+    <h3 class="welcome">~Welcome, Gamer!~</h3>
+
+    <!-- link to game page -->
+    <a href="game.html" class="links">LET'S PLAY!</a>
 
     <!-- game rules -->
     <div class="game-rules">
-        <h4>~Game Rules:~</h4>
+        <h4 class="rules-title">Game Rules:</h4>
         <p>As Sheldon Cooper explains in the American Sitcom called Big Bang Theory the game rules are:</p>
         <p>"Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors,
             scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it
             always has, rock crushes scissors."</p>
+
+        <div id="img-div"><img src="assets/images/rules.png" alt="game rules" id="rules-img"></div>
+
         <p>You will play against the computer and the first one to achieve 10 points will be the winner of the GAME!</p>
-        <p>Below you will find an image and a video that will also help you understand the rules of the game and
+        <p>There is a video a bit further down that will also contribute to you understanding the rules of the game and
             hopefully, maybe put a smile on your face. </p>
-        <p>If you want to try it out just click "LET'S PLAY!" below:</p>
+        <p>If you want to try the GAME just click "LET'S PLAY!" below:</p>
     </div>
 
     <!-- link to game page -->
     <a href="game.html" class="links">LET'S PLAY!</a>
 
-    <div><img src="assets/images/gamerules.png" alt="game rules"></div>
-
-    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/x5Q6-wMx-K8" title="YouTube video player"
-            frameborder="0"
+    <!-- video explaining game rules -->
+    <div id="video-div"><iframe width="640" height="360" src="https://www.youtube.com/embed/x5Q6-wMx-K8"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
+            allowfullscreen id="video"></iframe></div>
 
     <script src="assets/js/script.js"></script>
 </body>
