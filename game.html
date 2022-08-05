@@ -20,6 +20,39 @@
     <title>R.P.S.L.S.</title>
 </head>
 <body>
+
+    <!-- title -->
+    <h1>Rock~Paper~Scissors~Lizard~Spock</h1>
+    <h2>~The Big Bang Theory Game~</h2>
+
+    <!-- game rules -->
+    <a href="rules.html" id="rules">GAME RULES</a>
+
+    <!-- game zone -->
+    <div class="game-zone">
+
+        <div class="player">
+            <h3 class="scores">MY SCORE:</h3><span id="pScore">0</span>
+            <div id="playerZone"></div>
+        </div>
+
+        <div class="computer">
+            <h3 class="scores">COMPUTER SCORE:</h3><span id="cScore">0</span>
+            <div id="computerZone"></div>
+        </div>
+
+    </div>
+
+    <div id="result"></div>
+
+    <div class="choices">
+        <button data-type="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button data-type="paper"><i class="fa-solid fa-hand"></i></button>
+        <button data-type="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        <button data-type="lizard"><i class="fa-solid fa-hand-lizard"></i></button>
+        <button data-type="spock"><i class="fa-solid fa-hand-spock"></i></button>
+    </div>
+
    <script src="assets/js/script.js"></script> 
 </body>
 </html>
