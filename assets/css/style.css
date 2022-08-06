@@ -129,20 +129,40 @@ h1 {
     background-color: #ebc9c3;
 }
 
+#rock:hover {
+    background-color: #eca295;
+}
+
 #paper {
     background-color: #f0edaa;
+}
+
+#paper:hover {
+    background-color: #e6df6b;
 }
 
 #scissors {
     background-color: #f2bcd4;
 }
 
+#scissors:hover {
+    background-color: #f08cb9;
+}
+
 #lizard {
     background-color: #c3e6af;
 }
 
+#lizard:hover {
+    background-color: #92da69;
+}
+
 #spock {
     background-color: #7dc4ed;
+}
+
+#spock:hover {
+    background-color: #299ee2;
 }
 
 /* MEDIA QUERIES */
