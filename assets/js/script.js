@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
     resetZones();
 
     displayChoices(playerChoice, computerChoice);
+
+    winnerPerRound(playerChoice, computerChoice);
 }
 
 /**
@@ -73,4 +75,37 @@ function displayChoices(playerChoice, computerChoice) {
         i++;
     }
 
+}
+
+/**
+ * this function defines the winner per round
+ * @returns {string} : winner message for the user
+ */
+ function winnerPerRound(playerChoice, computerChoice) {
+
+    let draw = "IT'S A DRAW!";
+    let playerWon = "PLAYER SCORES!";
+    let computerWon = "COMPUTER SCORES!";
+
+    if (playerChoice == computerChoice) {
+        result.innerText = draw;
+    } else if (playerChoice == 'rock' && (computerChoice == 'scissors' || computerChoice == 'lizard')) {
+        
+        result.innerText = playerWon;
+    } else if (playerChoice == 'paper' && (computerChoice == 'rock' || computerChoice == 'spock')) {
+        
+        result.innerText = playerWon;
+    } else if (playerChoice == 'scissors' && (computerChoice == 'paper' || computerChoice == 'lizard')) {
+        
+        result.innerText = playerWon;
+    } else if (playerChoice == 'lizard' && (computerChoice == 'paper' || computerChoice == 'spock')) {
+        
+        result.innerText = playerWon;
+    } else if (playerChoice == 'spock' && (computerChoice == 'rock' || computerChoice == 'scissors')) {
+        
+        result.innerText = playerWon;
+    } else {
+        
+        result.innerText = computerWon;
+    }
 }
