@@ -1,5 +1,31 @@
 // global variables for available choices
 let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+let winners = {
+    rock: {
+        scissors: 'ROCK crushes SCISSORS',
+        lizard: 'ROCK crushes LIZARD'
+    },
+
+    paper: {
+        rock: 'PAPER covers ROCK',
+        spock: 'PAPER disproves SPOCK'
+    },
+
+    scissors: {
+        paper: 'SCISSORS cuts PAPER',
+        lizard: 'SCISSORS decapitates LIZARD'
+    },
+
+    lizard: {
+        spock: 'LIZARD poisons SPOCK',
+        paper: 'LIZARD eats PAPER'
+    },
+
+    spock: {
+        scissors: 'SPOCK smashes SCISSORS',
+        rock: 'SPOCK vaporizes ROCK'
+    }
+};
 
 //global variables for score limitation and result message for user
 let limit = 4;
@@ -90,6 +116,8 @@ function resetZones() {
 
 /**
  * this function defines the winner per round
+ * @param {string} playerChoice: the choice made by the Player
+ * @param {string} computerChoice: the random choice made by Computer
  * @returns {string} : winner message for the user
  */
 function winnerPerRound(playerChoice, computerChoice) {
@@ -97,6 +125,7 @@ function winnerPerRound(playerChoice, computerChoice) {
     let draw = "IT'S A DRAW!";
     let playerWon = "PLAYER SCORES!";
     let computerWon = "COMPUTER SCORES!";
+    let audio = getAudio(playerChoice, computerChoice);
 
     if (playerChoice == computerChoice) {
         result.innerText = draw;
@@ -117,8 +146,33 @@ function winnerPerRound(playerChoice, computerChoice) {
         result.innerText = playerWon;
     } else {
         incrementComputerScore();
-        result.innerText = computerWon;
+        result.innerText = computerWon;        
     }
+
+    if(audio != null) {
+        audio.play();
+    }
+}
+
+/**
+ * this function gets the sounds for winnerPerRound
+ *@param {string} playerChoice: the choice made by the Player
+ * @param {string} computerChoice: the random choice made by Computer
+ * @returns the audio object
+ */
+function getAudio(playerChoice, computerChoice) {
+    if (playerChoice === computerChoice) {
+        return null;
+    }
+
+    let winnerMessage = winners[playerChoice][computerChoice];
+
+    if (typeof(winnerMessage) === 'undefined') {
+        winnerMessage = winners[computerChoice][playerChoice];
+    }
+
+    let audio = new Audio('assets/sounds/' + winnerMessage.split(' ').join('-') + '.mp3');
+    return audio;
 }
 
 /**
@@ -166,6 +220,10 @@ function endGame() {
         } else {
             result.innerText = 'COMPUTER WON! GAME OVER!'
         }
+
+        for (let choice of choices) {
+            document.getElementById(choice).disabled = true;
+        }
     }
 }
 
@@ -177,4 +235,8 @@ function restartGame() {
     resetZones();
 
     this.hidden = true;
+
+    for (let choice of choices) {
+        document.getElementById(choice).disabled = false;
+    }
 }
