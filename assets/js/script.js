@@ -1,6 +1,10 @@
 // global variables for available choices
 let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
+//global variables for score limitation and result message for user
+let limit = 4;
+let result = document.getElementById('result');
+
 // wair for the DOM to load content before running game
 // get buttons and add event listeners to them
 document.addEventListener("DOMContentLoaded", function() {
@@ -31,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function() {
     displayChoices(playerChoice, computerChoice);
 
     winnerPerRound(playerChoice, computerChoice);
+
+    endGame();
 }
 
 /**
@@ -128,4 +134,33 @@ function incrementComputerScore() {
     let cScore = parseInt(document.getElementById('cScore').innerText);
     document.getElementById('cScore').innerText = ++cScore;
 
+}
+
+/**
+ * this function resets the scores to 0
+ */
+ function resetScores() {
+    document.getElementById('pScore').innerText = 0;
+    document.getElementById('cScore').innerText = 0;
+}
+
+/**
+ * this function defines the winner when score limit is achieved
+ * and restarts game
+ */
+function endGame() {
+
+    let player = document.getElementById('pScore').innerText;
+    let computer = document.getElementById('cScore').innerText;
+
+    if (player == limit || computer == limit) {
+        if(player > computer) {
+            result.innerText = 'YOU WON! GAME OVER!'
+        } else {
+            result.innerText = 'COMPUTER WON! GAME OVER!'
+        }
+
+       resetScores();
+       resetZones();
+    }
 }
