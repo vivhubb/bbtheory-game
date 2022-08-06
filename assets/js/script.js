@@ -90,22 +90,42 @@ function displayChoices(playerChoice, computerChoice) {
     if (playerChoice == computerChoice) {
         result.innerText = draw;
     } else if (playerChoice == 'rock' && (computerChoice == 'scissors' || computerChoice == 'lizard')) {
-        
+        incrementPlayerScore();
         result.innerText = playerWon;
     } else if (playerChoice == 'paper' && (computerChoice == 'rock' || computerChoice == 'spock')) {
-        
+        incrementPlayerScore();
         result.innerText = playerWon;
     } else if (playerChoice == 'scissors' && (computerChoice == 'paper' || computerChoice == 'lizard')) {
-        
+        incrementPlayerScore();
         result.innerText = playerWon;
     } else if (playerChoice == 'lizard' && (computerChoice == 'paper' || computerChoice == 'spock')) {
-        
+        incrementPlayerScore();
         result.innerText = playerWon;
     } else if (playerChoice == 'spock' && (computerChoice == 'rock' || computerChoice == 'scissors')) {
-        
+        incrementPlayerScore();
         result.innerText = playerWon;
     } else {
-        
+        incrementComputerScore();
         result.innerText = computerWon;
     }
+}
+
+/**
+ * this function increments player score when player wins
+ */
+ function incrementPlayerScore() {
+
+    let pScore = parseInt(document.getElementById('pScore').innerText);
+    document.getElementById('pScore').innerText = ++pScore;
+
+}
+
+/**
+ * this function increments computer score when computer wins
+ */
+function incrementComputerScore() {
+
+    let cScore = parseInt(document.getElementById('cScore').innerText);
+    document.getElementById('cScore').innerText = ++cScore;
+
 }
