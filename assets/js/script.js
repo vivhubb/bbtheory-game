@@ -30,6 +30,7 @@ let winners = {
 //global variables for score limitation and result message for user
 let limit = 4;
 let result = document.getElementById('result');
+let explain = document.getElementById('explain');
 
 // wair for the DOM to load content before running game
 // get buttons and add event listeners to them
@@ -81,8 +82,8 @@ function displayChoices(playerChoice, computerChoice) {
     let playerZone = document.getElementById('playerZone');
     let computerZone = document.getElementById('computerZone');
 
-    let playerImage = 'assets/images/' + playerChoice + '.png';
-    let computerImage = 'assets/images/' + computerChoice + '.png';
+    let playerImage = 'assets/images/' + playerChoice + '.jpg';
+    let computerImage = 'assets/images/' + computerChoice + '.jpg';
 
     let displayChoice1 = document.createElement('img');
     let displayChoice2 = document.createElement('img');
@@ -118,7 +119,6 @@ function resetZones() {
  * this function defines the winner per round
  * @param {string} playerChoice: the choice made by the Player
  * @param {string} computerChoice: the random choice made by Computer
- * @returns {string} : winner message for the user
  */
 function winnerPerRound(playerChoice, computerChoice) {
 
@@ -127,10 +127,10 @@ function winnerPerRound(playerChoice, computerChoice) {
     let computerWon = "COMPUTER SCORES!";
     let array = getAudio(playerChoice, computerChoice);
     let audio = array[0];
-    let explain = document.getElementById('explain');
 
-    if (playerChoice == computerChoice) {
+    if (playerChoice === computerChoice) {
         result.innerText = draw;
+        explain.innerText = null;
     } else if (playerChoice == 'rock' && (computerChoice == 'scissors' || computerChoice == 'lizard')) {
         incrementPlayerScore();
         result.innerText = playerWon;
@@ -148,8 +148,8 @@ function winnerPerRound(playerChoice, computerChoice) {
         result.innerText = playerWon;
     } else {
         incrementComputerScore();
-        result.innerText = computerWon;        
-    }
+        result.innerText = computerWon;     
+    }    
     explain.innerText = array[1];
 
     if(audio != null) {
@@ -165,7 +165,7 @@ function winnerPerRound(playerChoice, computerChoice) {
  */
 function getAudio(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
-        return null;
+        return [null, null];
     }
 
     let winnerMessage = winners[playerChoice][computerChoice];
@@ -234,6 +234,9 @@ function endGame() {
  * this function restarts the game when RESTART button is clicked
  */
 function restartGame() {
+    explain.innerText = null;
+    result.innerText = null;
+
     resetScores();
     resetZones();
 
