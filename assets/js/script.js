@@ -125,7 +125,9 @@ function winnerPerRound(playerChoice, computerChoice) {
     let draw = "IT'S A DRAW!";
     let playerWon = "PLAYER SCORES!";
     let computerWon = "COMPUTER SCORES!";
-    let audio = getAudio(playerChoice, computerChoice);
+    let array = getAudio(playerChoice, computerChoice);
+    let audio = array[0];
+    let explain = document.getElementById('explain');
 
     if (playerChoice == computerChoice) {
         result.innerText = draw;
@@ -148,6 +150,7 @@ function winnerPerRound(playerChoice, computerChoice) {
         incrementComputerScore();
         result.innerText = computerWon;        
     }
+    explain.innerText = array[1];
 
     if(audio != null) {
         audio.play();
@@ -172,7 +175,7 @@ function getAudio(playerChoice, computerChoice) {
     }
 
     let audio = new Audio('assets/sounds/' + winnerMessage.split(' ').join('-') + '.mp3');
-    return audio;
+    return [audio, winnerMessage];
 }
 
 /**
