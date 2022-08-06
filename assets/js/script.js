@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let randomNumber = Math.floor(Math.random() * 5); 
     let computerChoice = choices[randomNumber];
 
+    resetZones();
+
     displayChoices(playerChoice, computerChoice);
 }
 
@@ -54,4 +56,21 @@ function displayChoices(playerChoice, computerChoice) {
 
     playerZone.appendChild(displayChoice1);
     computerZone.appendChild(displayChoice2);
+}
+
+/**
+ * this function deletes the previously selected images
+ */
+ function resetZones() {
+
+    let replaceImage = document.getElementsByClassName('images');
+    let length = replaceImage.length;
+
+    let i = 0;
+
+    while (i < length) {
+        replaceImage[0].remove();
+        i++;
+    }
+
 }
