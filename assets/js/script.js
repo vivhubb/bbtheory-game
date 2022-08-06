@@ -7,27 +7,32 @@ let result = document.getElementById('result');
 
 // wair for the DOM to load content before running game
 // get buttons and add event listeners to them
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName('button');
 
     for (let button of buttons) {
-        button.addEventListener('click', function(){
+        if (button.getAttribute('id') != 'restart') {
 
-            let playerChoice = this.getAttribute('data-type');
+            button.addEventListener('click', function () {
 
-            game(playerChoice);
-        })
+                let playerChoice = this.getAttribute('data-type');
+
+                game(playerChoice);
+            })
+        } else {
+            button.addEventListener('click', restartGame);
+        }
     }
-} );
+});
 
 /** 
  * this is the main function which runs the game
  * @param {string} playerChoice: the choice made by the Player
  */
- function game(playerChoice) {
+function game(playerChoice) {
 
     //  creates random choice for the computer
-    let randomNumber = Math.floor(Math.random() * 5); 
+    let randomNumber = Math.floor(Math.random() * 5);
     let computerChoice = choices[randomNumber];
 
     resetZones();
@@ -46,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
  * @param {string} computerChoice: the random choice made by Computer
  */
 function displayChoices(playerChoice, computerChoice) {
-    
+
     let playerZone = document.getElementById('playerZone');
     let computerZone = document.getElementById('computerZone');
 
@@ -69,7 +74,7 @@ function displayChoices(playerChoice, computerChoice) {
 /**
  * this function deletes the previously selected images
  */
- function resetZones() {
+function resetZones() {
 
     let replaceImage = document.getElementsByClassName('images');
     let length = replaceImage.length;
@@ -87,7 +92,7 @@ function displayChoices(playerChoice, computerChoice) {
  * this function defines the winner per round
  * @returns {string} : winner message for the user
  */
- function winnerPerRound(playerChoice, computerChoice) {
+function winnerPerRound(playerChoice, computerChoice) {
 
     let draw = "IT'S A DRAW!";
     let playerWon = "PLAYER SCORES!";
@@ -119,7 +124,7 @@ function displayChoices(playerChoice, computerChoice) {
 /**
  * this function increments player score when player wins
  */
- function incrementPlayerScore() {
+function incrementPlayerScore() {
 
     let pScore = parseInt(document.getElementById('pScore').innerText);
     document.getElementById('pScore').innerText = ++pScore;
@@ -139,28 +144,37 @@ function incrementComputerScore() {
 /**
  * this function resets the scores to 0
  */
- function resetScores() {
+function resetScores() {
     document.getElementById('pScore').innerText = 0;
     document.getElementById('cScore').innerText = 0;
 }
 
 /**
  * this function defines the winner when score limit is achieved
- * and restarts game
  */
 function endGame() {
 
     let player = document.getElementById('pScore').innerText;
     let computer = document.getElementById('cScore').innerText;
+    let button = document.getElementById('restart');
 
     if (player == limit || computer == limit) {
-        if(player > computer) {
+        button.hidden = false;
+
+        if (player > computer) {
             result.innerText = 'YOU WON! GAME OVER!'
         } else {
             result.innerText = 'COMPUTER WON! GAME OVER!'
         }
-
-       resetScores();
-       resetZones();
     }
+}
+
+/**
+ * this function restarts the game when RESTART button is clicked
+ */
+function restartGame() {
+    resetScores();
+    resetZones();
+
+    this.hidden = true;
 }
