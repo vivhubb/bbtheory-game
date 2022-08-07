@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
+
 /* global styling */
 
 body {
@@ -11,7 +13,7 @@ body {
 
 #welcome-page {
     margin: 0;
-    background-color: rgb(22, 163, 180, 0.6);
+    /* background-color: rgb(22, 163, 180, 0.6); */
 }
 
 /* background image */
@@ -22,7 +24,7 @@ body {
     padding: 0;
     position: absolute;
     left: 0;
-    opacity: 0.4;
+    opacity: 0.8;
     z-index: -1;
 }
 
@@ -70,7 +72,8 @@ h1 {
 /* rules image */
 
 #rules-img {
-    width: 35%;
+    width: 300px;
+    height: 300px;
 }
 
 /* rules video */
@@ -88,8 +91,8 @@ h1 {
 /* game zone */
 
 .game-zone {
-    background: url(../images/background.jpg) no-repeat center center;
-    background-size: 100%;
+    background: url(../images/background.webp) no-repeat center center;
+    background-size: contain;
     border-radius: 25px;
 
     margin: 2em auto;
@@ -118,7 +121,7 @@ h1 {
     margin: 0 auto;
     padding: 0.5em;
 
-    background: url(../images/background.jpg) no-repeat center center;
+    background: url(../images/background.webp) no-repeat center center;
     background-size: 100%;
     border-radius: 25px;
 }
@@ -132,7 +135,7 @@ h1 {
     margin: 1em auto;
     padding: 0.7em;
 
-    background: url(../images/background.jpg) no-repeat center center;
+    background: url(../images/background.webp) no-repeat center center;
     background-size: 100%;
     border-radius: 25px;
 }
@@ -140,6 +143,8 @@ h1 {
 /* font awesome button choices */
 
 .choices button {
+    font-family: 'Cormorant SC', serif;
+    font-weight: bolder;
     margin: 1.5em;
     padding: 0.5em;
     border: 2px solid black;
@@ -206,7 +211,8 @@ h1 {
 
 @media screen and (max-width: 768px) {
     #rules-img {
-        width: 70%;
+        width: 250px;
+        height: 250px;
     }
 
     #video {
@@ -245,6 +251,11 @@ h1 {
 }
 
 @media screen and (max-width: 530px) {
+    #rules-img {
+        width: 200px;
+        height: 200px;
+    }
+
     .game-zone {
         border-radius: 30px;
     }
@@ -301,11 +312,11 @@ h1 {
     }
 
     #explain {
-        width: 70%;
+        width: 80%;
     }
 
     #result {
-        width: 60%;
+        width: 70%;
     }
 
     .fa-solid {
