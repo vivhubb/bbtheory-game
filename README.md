@@ -1,5 +1,5 @@
-# **ROCK~PAPER~SCISSORS~LIZARD~SPOCK**
-## ~THE BIG BANG THEORY GAME~
+# **ROCK-PAPER-SCISSORS-LIZARD-SPOCK**
+## -THE BIG BANG THEORY GAME-
 
 Welcome to [THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website.
 
@@ -15,16 +15,20 @@ At this point the user will have two options to navigate. One of them being the 
 
 <!-- TOC -->
 
-- [**ROCK~PAPER~SCISSORS~LIZARD~SPOCK**](#rockpaperscissorslizardspock)
-    - [~THE BIG BANG THEORY GAME~](#the-big-bang-theory-game)
+- [**ROCK-PAPER-SCISSORS-LIZARD-SPOCK**](#rock-paper-scissors-lizard-spock)
+    - [-THE BIG BANG THEORY GAME-](#-the-big-bang-theory-game-)
     - [**CONTENTS**](#contents)
-        - [USER EXPERIENCE UX](#user-experience-ux)
+        - [**USER EXPERIENCE UX**](#user-experience-ux)
             - [USER STORIES](#user-stories)
             - [WIREFRAMES](#wireframes)
+        - [**SITE STRUCTURE**](#site-structure)
+        - [**DESIGN**](#design)
+            - [TYPEFACE](#typeface)
+            - [COLOUR SCHEME](#colour-scheme)
 
 <!-- /TOC -->
 
-### USER EXPERIENCE UX
+### **USER EXPERIENCE UX**
 
 #### USER STORIES
 
@@ -40,8 +44,31 @@ At this point the user will have two options to navigate. One of them being the 
 
 The WIREFRAMES for THE R.P.S.L.S. GAME website were created using [Balsamiq](https://balsamiq.com/), initially to help visualize the project. The plans slightly differ from the website's final look due to developements and new ideas during creation.
 
-![wireframes01](/assets/readme.images/wireframes01.png) &emsp;
+![wireframes01](/assets/readme.images/wireframes01.png) <br>
 ![wireframes02](/assets/readme.images/wireframes02.png) &emsp;
 ![wireframes03](/assets/readme.images/wireframes03.png)
 
 [JUMP to TOP](<#contents>)
+
+### **SITE STRUCTURE**
+
+[THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website created for the Rock-Paper-Scissors-Lizard-Spock game has two pages.
+
+* [Greeting Page](https://vivhubb.github.io/bbtheory-game/) which is the default loading page welcoming the user and displaying instructions and game rules.
+* [Game Page](https://vivhubb.github.io/bbtheory-game/game.html) which is holding the game itself.
+
+[JUMP to TOP](<#contents>)
+
+### **DESIGN**
+
+#### TYPEFACE
+
+The chosen font for the website was Cormorant SC, which falls back on serif. The choice was made due to the fonts nature of displaying the lowercase letters with an uppercase styling, while still showing the difference between the two. In my opinion the fonts' traits contribute well to the main purpose of the site's creation which is the game.
+
+#### COLOUR SCHEME
+
+The idea for the chosen colour scheme was initiated by the image from the [Greeting Page](https://vivhubb.github.io/bbtheory-game/) that visualizes the game rules. Furthermore, the presence of multiple colors are meant to represent playfulness suggesting "this should be fun".
+
+[Color Picker](https://imagecolorpicker.com/en) was used for building the color scheme and creating the colour palette.
+
+![colour palette](/assets/readme.images/palette.png)
