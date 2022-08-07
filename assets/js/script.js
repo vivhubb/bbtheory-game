@@ -130,7 +130,6 @@ function winnerPerRound(playerChoice, computerChoice) {
 
     if (playerChoice === computerChoice) {
         result.innerText = draw;
-        explain.innerText = null;
     } else if (playerChoice == 'rock' && (computerChoice == 'scissors' || computerChoice == 'lizard')) {
         incrementPlayerScore();
         result.innerText = playerWon;
@@ -165,7 +164,7 @@ function winnerPerRound(playerChoice, computerChoice) {
  */
 function getAudio(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
-        return [null, null];
+        return [null, ''];
     }
 
     let winnerMessage = winners[playerChoice][computerChoice];
@@ -234,8 +233,8 @@ function endGame() {
  * this function restarts the game when RESTART button is clicked
  */
 function restartGame() {
-    explain.innerText = null;
-    result.innerText = null;
+    explain.innerText = '';
+    result.innerText = '';
 
     resetScores();
     resetZones();

@@ -231,12 +231,24 @@ h1 {
         margin: 1em;
     }
 
+    #explain {
+        width: 50%;
+    }
+
+    #result {
+        width: 40%;
+    }
+
     .fa-solid {
         font-size: 3em;
     }
 }
 
 @media screen and (max-width: 530px) {
+    .game-zone {
+        border-radius: 30px;
+    }
+
     .player, .computer {
         width: 170px;
         height: 170px;
@@ -247,12 +259,28 @@ h1 {
         margin: 1em;
     }
 
+    #explain {
+        width: 60%;
+    }
+
+    #result {
+        width: 50%;
+    }
+
+    .choices button {
+        margin: 1em;
+    }
+
     .fa-solid {
         font-size: 2.5em;
     }
 }
 
 @media screen and (max-width: 425px) {
+    .game-zone {
+        border-radius: 35px;
+    }
+
     .player, .computer {
         width: 140px;
         height: 140px;
@@ -272,12 +300,20 @@ h1 {
         margin: 0.4em;
     }
 
+    #explain {
+        width: 70%;
+    }
+
+    #result {
+        width: 60%;
+    }
+
     .fa-solid {
         font-size: 2em;
     }
 
     .choices button {
-        margin: 0.5em;
+        margin: 0.3em;
         padding: 0.5em;
     }
 }
