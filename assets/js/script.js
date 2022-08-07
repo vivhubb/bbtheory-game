@@ -47,7 +47,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 game(playerChoice);
             })
         } else {
-            button.addEventListener('click', restartGame);
+            button.addEventListener('click', function() {
+                explain.innerText = '';
+                result.innerText = '';
+            
+                resetScores();
+                resetZones();
+            
+                this.hidden = true;
+            
+                for (let choice of choices) {
+                    document.getElementById(choice).disabled = false;
+                }
+            });
         }
     }
 });
@@ -226,22 +238,5 @@ function endGame() {
         for (let choice of choices) {
             document.getElementById(choice).disabled = true;
         }
-    }
-}
-
-/**
- * this function restarts the game when RESTART button is clicked
- */
-function restartGame() {
-    explain.innerText = '';
-    result.innerText = '';
-
-    resetScores();
-    resetZones();
-
-    this.hidden = true;
-
-    for (let choice of choices) {
-        document.getElementById(choice).disabled = false;
     }
 }

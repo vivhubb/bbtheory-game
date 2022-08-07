@@ -6,37 +6,33 @@ body {
     font-family: 'Cormorant SC', serif;
     text-align: center;
     font-weight: bolder;
-    position: relative;
 }
 
 /* welcome page body */
 
 #welcome-page {
     margin: 0;
-    /* background-color: rgb(22, 163, 180, 0.6); */
+    background-color: rgb(22, 163, 180, 0.5);
 }
 
 /* background image */
 
 #background {
     width: 100%;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     padding: 0;
-    position: absolute;
+    position: fixed;
     left: 0;
+    top: 0;
     opacity: 0.8;
     z-index: -1;
-}
-
-/* titles */
-h1 {
-    margin-top: 0;
 }
 
 /* greeting */
 
 .welcome {
-    margin: 2em;
+    margin: 1.5em;
     font-size: 1.5em;
 }
 
@@ -47,7 +43,7 @@ h1 {
     text-decoration: none;
     border: 2.5px dotted black;
     border-radius: 25px;
-    margin: 0 auto;
+    margin: 1em auto;
     padding: 0.5em;
 }
 
@@ -79,20 +75,20 @@ h1 {
 /* rules video */
 
 #video-div {
-    margin: 2em auto 0;
-}
-
-#video {
-    border-radius: 25px;
+    margin: 1em auto;
 }
 
 /* GAME PAGE */
 
 /* game zone */
 
+#game-page {
+    background-color: rgb(22, 163, 180, 0.4);
+}
+
 .game-zone {
-    background: url(../images/background.webp) no-repeat center center;
-    background-size: contain;
+    background: url('../images/background.webp') no-repeat center center;
+    background-size: 100%;
     border-radius: 25px;
 
     margin: 2em auto;
@@ -114,6 +110,7 @@ h1 {
 }
 
 /* explain div */
+
 #explain {
     font-weight: bolder;
     width: 40%;
@@ -121,7 +118,7 @@ h1 {
     margin: 0 auto;
     padding: 0.5em;
 
-    background: url(../images/background.webp) no-repeat center center;
+    background: url('../images/background.webp') no-repeat center center;
     background-size: 100%;
     border-radius: 25px;
 }
@@ -135,7 +132,7 @@ h1 {
     margin: 1em auto;
     padding: 0.7em;
 
-    background: url(../images/background.webp) no-repeat center center;
+    background: url('../images/background.webp') no-repeat center center;
     background-size: 100%;
     border-radius: 25px;
 }
@@ -213,10 +210,6 @@ h1 {
     #rules-img {
         width: 250px;
         height: 250px;
-    }
-
-    #video {
-        width: 300px;
     }
 
     .player, .computer {
