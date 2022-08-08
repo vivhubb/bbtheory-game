@@ -229,7 +229,7 @@ function endGame() {
     if (player == limit || computer == limit) {
         button.hidden = false;
 
-        if (player > computer) {
+        if (player == limit) {
             result.innerText = 'YOU WON! GAME OVER!'
         } else {
             result.innerText = 'COMPUTER WON! GAME OVER!'
