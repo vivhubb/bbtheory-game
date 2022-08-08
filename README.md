@@ -3,7 +3,7 @@
 
 Welcome to [THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website.
 
-THE R.P.S.L.S. GAME site, as the name suggests, is a website which allows users to play a different version of the ROCK-PAPER-SSCISSORS game as it is presented in the American Sitcom called Big Bang Theory. According to [IMDB](https://m.imdb.com/title/tt1256039/trivia/?ref_=tt_ql_trv) the game of "Rock Paper Scissors Lizard Spock" was invented by a software engineer named Sam Kass, who outlined the rules and hand gestures on his website in 1998. He, however, called it "Rock Paper Scissors Spock Lizard".
+THE R.P.S.L.S. GAME site, as the name suggests, is a website which allows users to play a different version of the ROCK-PAPER-SCISSORS game as it is presented in the American Sitcom called The Big Bang Theory. According to [IMDB](https://m.imdb.com/title/tt1256039/trivia/?ref_=tt_ql_trv) the game of "Rock Paper Scissors Lizard Spock" was invented by a software engineer named Sam Kass, who outlined the rules and hand gestures on his website in 1998. He, however, called it "Rock Paper Scissors Spock Lizard".
 
 Upon accessing the website the user will be welcomed by a [Greeting Page](https://vivhubb.github.io/bbtheory-game/) which will display instructions of game rules using a picture and a link to a [Youtube video](https://www.youtube.com/watch?v=x5Q6-wMx-K8").
 
@@ -25,6 +25,10 @@ At this point the user will have two options to navigate. One of them being the 
         - [**DESIGN**](#design)
             - [TYPEFACE](#typeface)
             - [COLOUR SCHEME](#colour-scheme)
+        - [**FEATURES**](#features)
+            - [EXISTING FEATURES](#existing-features)
+                - [HEADER SECTION](#header-section)
+                - [GAME RULES SECTION](#game-rules-section)
 
 <!-- /TOC -->
 
@@ -37,7 +41,7 @@ At this point the user will have two options to navigate. One of them being the 
 * As a user I want to clearly understand the information provided on the website.
 * As a user I want to find out more about about where the idea of the game is coming from.
 * As a user I want to play a game.
-* As a user i want to receive constant feedback on the process of the game.
+* As a user i want to receive constant feedback on the progress of the game.
 * As a user i want to be able to interact with the website.
 
 #### WIREFRAMES
@@ -69,6 +73,36 @@ The chosen font for the website was Cormorant SC, which falls back on serif. The
 
 The idea for the chosen colour scheme was initiated by the image from the [Greeting Page](https://vivhubb.github.io/bbtheory-game/) that visualizes the game rules. Furthermore, the presence of multiple colors are meant to represent playfulness suggesting "this should be fun".
 
-[Color Picker](https://imagecolorpicker.com/en) was used for building the color scheme and creating the colour palette.
+[Color Picker](https://imagecolorpicker.com/en) was used for building the colour scheme and creating the colour palette.
 
 ![colour palette](/assets/readme.images/palette.png)
+
+### **FEATURES**
+
+#### EXISTING FEATURES
+
+##### HEADER SECTION
+
+* **Title**
+
+**The main title** displays Rock-Paper-Scissors-Lizard-Spock stating clearly what the website is about. <br>
+**The subtitle** displays -The Big Bang Theory Game- complementing the main title and giving further explanation on the website's theme and purpose.
+
+![title](/assets/readme.images/title.png)
+
+* **Greeting**
+
+The title is followed by a greeting for the user:
+
+![greeting](/assets/readme.images/greeting.png)
+
+* **Navigation**
+
+The greeting is followed by a link to the [Game Page](https://vivhubb.github.io/bbtheory-game/game.html) in the case that the user is already familiar with the game rules.
+
+![link01](/assets/readme.images/link01.png)
+
+##### GAME RULES SECTION
+
+
+
