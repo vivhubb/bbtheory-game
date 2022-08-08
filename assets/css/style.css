@@ -137,6 +137,19 @@ body {
     border-radius: 25px;
 }
 
+/* restart game button */
+
+#restart {
+    font-family: 'Cormorant SC', serif;
+    font-weight: bolder;
+    font-size: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2.5px dotted black;
+    border-radius: 25px;
+}
+
 /* font awesome button choices */
 
 .choices button {

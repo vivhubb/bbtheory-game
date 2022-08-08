@@ -108,7 +108,7 @@ This section displays clear instructions for the user on how to play the game an
 
 ![game rules](/assets/readme.images/game-rules.png)
 
-* **Navigation**
+* **Links**
 
 This is followed by a link that will take the user to the [Game Page](https://vivhubb.github.io/bbtheory-game/game.html).
 
