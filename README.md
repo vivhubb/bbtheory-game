@@ -27,8 +27,8 @@ At this point the user will have two options to navigate. One of them being the 
             - [COLOUR SCHEME](#colour-scheme)
         - [**FEATURES**](#features)
             - [EXISTING FEATURES](#existing-features)
-                - [HEADER SECTION](#header-section)
-                - [GAME RULES SECTION](#game-rules-section)
+                - [GREETING & GAME RULES PAGE](#greeting--game-rules-page)
+                - [THE GAME PAGE](#the-game-page)
 
 <!-- /TOC -->
 
@@ -81,7 +81,7 @@ The idea for the chosen colour scheme was initiated by the image from the [Greet
 
 #### EXISTING FEATURES
 
-##### HEADER SECTION
+##### GREETING & GAME RULES PAGE
 
 * **Title**
 
@@ -102,7 +102,21 @@ The greeting is followed by a link to the [Game Page](https://vivhubb.github.io/
 
 ![link01](/assets/readme.images/link01.png)
 
-##### GAME RULES SECTION
+* **Game Rules Section**
 
+This section displays clear instructions for the user on how to play the game and explains the score that needs to be achieved for a winner to be called. The basic rules are listed and visualized with a picture as well. It also ensures the user that the choice made by the computer is completely random so they have equal chances of winning the game.
 
+![game rules](/assets/readme.images/game-rules.png)
+
+* **Navigation**
+
+This is followed by a link that will take the user to the [Game Page](https://vivhubb.github.io/bbtheory-game/game.html).
+
+![let's play](/assets/readme.images/link02.png)
+
+Aditionally, there is a link that will take the user to a funny youtube video, which is a part from the American Sitcom called The Big Bang Theory, where one of the main characters explains the game rules to his friends.
+
+![youtube video](/assets/readme.images/link03.png)
+
+##### THE GAME PAGE
 
