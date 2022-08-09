@@ -29,13 +29,14 @@ At this point the user will have two options to navigate. One of them being the 
             - [EXISTING FEATURES](#existing-features)
                 - [**GREETING & GAME RULES PAGE**](#greeting--game-rules-page)
                 - [**THE GAME PAGE**](#the-game-page)
-            - [FUTURE FEATURES](#future-features)
-        - [TESTING](#testing)
+            - [FUTURE IMPROVEMENT IDEAS](#future-improvement-ideas)
+        - [**TESTING**](#testing)
             - [CODE VALIDATION](#code-validation)
             - [LIGHTHOUSE TESTING](#lighthouse-testing)
             - [BUGS AND FIXES](#bugs-and-fixes)
                 - [GITPOD TEMPLATE](#gitpod-template)
                 - [JAVASCRIPT](#javascript)
+        - [**DEPLOYMENT**](#deployment)
 
 <!-- /TOC -->
 
@@ -171,13 +172,17 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 [JUMP to TOP](<#contents>)
 
-#### FUTURE FEATURES
+#### FUTURE IMPROVEMENT IDEAS
 
-* Get some information on how to avoid [Javascript Warnings](<#javascript>) mentioned below.
+* Figure out a way to shorten the below section in the game's javascript code. (I have already started working on this in another repository mentioned in the [Bugs and Fixes section](<#gitpod-template>)).
+
+![JS to do](/assets/readme.images/js-todo.png)
+
+* Get information on how to avoid [Javascript Warnings](<#javascript>) mentioned below.
 
 [JUMP to TOP](<#contents>)
 
-### TESTING
+### **TESTING**
 
 * The website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
 * The website's responsive design was tested for all common screen sizes (including Iphone SE, Iphone 8 Plus, Iphone XS, Iphone SE 2nd gen, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?).
@@ -275,3 +280,40 @@ Once i have addeed the missing semicolons i have remained with 38 warnings.
 
 [JUMP to TOP](<#contents>)
 
+### **DEPLOYMENT**
+
+* **Deploying the website**
+
+The website was deployed to GitHub pages, steps are listed below:
+
+1. In the GitHub repository navigate to Settings tab and select.
+2. On the left side navigate to and select Pages.
+3. Find Source then select branch as main and save.
+4. Once done, a link is provided by GitHub for the published site along with a confirmation message stating "Your site is live at..".
+
+![deploying the website](/assets/readme.images/deploy.png)
+
+* **Forking GitHub repository**
+
+Forking a repository means to create a copy which allows to freely experiment in making changes without affecting the original project.
+
+1. On **GitHub** navigate to the **main page** of repository
+2. **Find** and **click fork** in the top right corner
+
+![fork repository](/assets/readme.images/fork.png)
+
+* **Cloning GitHub repository**
+
+Cloning repository creates a local copy on the computer for the remote GitHub repository.
+
+1. On **GitHub** navigate to the **main page** of repository
+2. **Find** and **click code** in the top right corner
+3. **Copy** the **URL** for the repository
+4. Open **Git Bash**
+5. Change the current working directory to the location of your choice
+6. Type *git clone*, and then **paste copied URL**
+7. Press **ENTER** to create local clone
+
+![clone repository](/assets/readme.images/clone.png)
+
+[JUMP to TOP](<#contents>)
