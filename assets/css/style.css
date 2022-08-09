@@ -325,11 +325,13 @@ body {
     }
 
     #explain {
-        width: 80%;
+        width: auto;
+        min-width: 80%;
     }
 
     #result {
-        width: 70%;
+        width: auto;
+        min-width: 70%;
     }
 
     .fa-solid {

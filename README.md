@@ -29,6 +29,8 @@ At this point the user will have two options to navigate. One of them being the 
             - [EXISTING FEATURES](#existing-features)
                 - [**GREETING & GAME RULES PAGE**](#greeting--game-rules-page)
                 - [**THE GAME PAGE**](#the-game-page)
+            - [FUTURE FEATURES](#future-features)
+        - [TESTING](#testing)
 
 <!-- /TOC -->
 
@@ -120,6 +122,8 @@ Aditionally, there is a link that will take the user to a funny youtube video, w
 
 ![Youtube Video](/assets/readme.images/link03.png)
 
+[JUMP to TOP](<#contents>)
+
 ##### **THE GAME PAGE**
 
 * **Title**
@@ -159,3 +163,17 @@ Once the game is over and a winner is called, the buttons for choice options (Ro
 ![Game over](/assets/readme.images/game-over.png)
 
 The overall look of the game area can be associated with a "robotic face" which fits well with the site's purpose (being a game) as well as with the theme of The Big Bang Theory, where most of the characters are geniuses and scientists.
+
+[JUMP to TOP](<#contents>)
+
+#### FUTURE FEATURES
+
+* 
+
+[JUMP to TOP](<#contents>)
+
+### TESTING
+
+* The website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
+* The website's responsive design was tested for all common screen sizes (including Iphone SE, Iphone 8 Plus, Iphone XS, Iphone SE 2nd gen, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?).
+
