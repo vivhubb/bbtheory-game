@@ -37,6 +37,9 @@ At this point the user will have two options to navigate. One of them being the 
                 - [GITPOD TEMPLATE](#gitpod-template)
                 - [JAVASCRIPT](#javascript)
         - [**DEPLOYMENT**](#deployment)
+        - [**CREDITS**](#credits)
+            - [CONTENT and MEDIA](#content-and-media)
+            - [RECOGNITION](#recognition)
 
 <!-- /TOC -->
 
@@ -317,3 +320,28 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 ![clone repository](/assets/readme.images/clone.png)
 
 [JUMP to TOP](<#contents>)
+
+### **CREDITS**
+
+#### CONTENT and MEDIA
+
+* Font implemented from [Google Fonts](https://fonts.google.com/)
+* Icons for choices were taken from [Font Awesome](https://fontawesome.com/)
+* The colors were picked using [Color Picker](https://imagecolorpicker.com/en)
+* The color palette was also made using [Color Picker](https://imagecolorpicker.com/en)
+* Wireframes were created using [Balsamiq](https://balsamiq.com/)
+* Idea for favicon in website's title from: [Love Maths Walkthrough Project](https://github.com/vivhubb/love-maths)
+* Images displayed in the game area were found on: [Free Icons Library](https://icon-library.com/) which redirected to: [Programmable Search Engine](https://cse.google.com/cse?cx=4796b5020fbeaf2e6&q=rock%20paper%20scissors%20lizard%20spock&oq=rock%20paper%20scissors%20lizard%20spock&gs_l=partner-web.3...19781.19781.0.20493.0.0.0.0.0.0.0.0..0.0.csems%2Cnrl%3D13...0.119j14161j2...1.34.partner-web..0.0.0.)
+* Images displayed in the game area were cropped using: [Case converter](https://www.caseconverter.online/circle-image-crop)
+* Image displaying the game rules was taken from: [The Big Bang Theory Wiki | Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock?file=RPSLS.png)
+* The colorful background image is from [PNGtree](https://pngtree.com/freebackground/pastel-colorful-background-clouds_1162170.html)
+* The background image was converted to WebP using: [Online Convert](https://image.online-convert.com/convert-to-webp)
+* Sound effects for the game were downloaded from [Pixabay](https://pixabay.com/sound-effects/)
+* The sound effects were trimmed using: [Audio Trimmer](https://audiotrimmer.com/)
+* Some sound's speed was changed using [Audio Trimmers's speed changer](https://audiotrimmer.com/audio-speed-changer/)
+
+#### RECOGNITION
+
+The website was created for [Code Institute](https://codeinstitute.net/)'s Full Stack Software Development Diploma Course as the second Milestone Project.
+
+Therefore, I would like to take this opportunity to show my appreciation and thanks to my mentor **Precious Ijege** and the whole of Code Institute for all the help and support received throughout the creation of this project.
