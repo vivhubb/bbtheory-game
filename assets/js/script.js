@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let playerChoice = this.getAttribute('data-type');
 
                 game(playerChoice);
-            })
+            });
         } else {
             button.addEventListener('click', function() {
                 explain.innerText = '';
@@ -230,9 +230,9 @@ function endGame() {
         button.hidden = false;
 
         if (player == limit) {
-            result.innerText = 'YOU WON! GAME OVER!'
+            result.innerText = 'YOU WON! GAME OVER!';
         } else {
-            result.innerText = 'COMPUTER WON! GAME OVER!'
+            result.innerText = 'COMPUTER WON! GAME OVER!';
         }
 
         for (let choice of choices) {

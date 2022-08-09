@@ -9,7 +9,7 @@ Upon accessing the website the user will be welcomed by a [Greeting & Game Rules
 
 At this point the user will have two options to navigate. One of them being the link to the previously mentioned video and the other one will take the user to the [Game Page](https://vivhubb.github.io/bbtheory-game/game.html).
 
-![responsive image](/assets/readme.images/responsive0.png)
+![Responsive Image](/assets/readme.images/responsive0.png)
 
 ## **CONTENTS**
 
@@ -31,6 +31,11 @@ At this point the user will have two options to navigate. One of them being the 
                 - [**THE GAME PAGE**](#the-game-page)
             - [FUTURE FEATURES](#future-features)
         - [TESTING](#testing)
+            - [CODE VALIDATION](#code-validation)
+            - [LIGHTHOUSE TESTING](#lighthouse-testing)
+            - [BUGS AND FIXES](#bugs-and-fixes)
+                - [GITPOD TEMPLATE](#gitpod-template)
+                - [JAVASCRIPT](#javascript)
 
 <!-- /TOC -->
 
@@ -168,7 +173,7 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 #### FUTURE FEATURES
 
-* 
+* Get some information on how to avoid [Javascript Warnings](<#javascript>) mentioned below.
 
 [JUMP to TOP](<#contents>)
 
@@ -176,4 +181,97 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 * The website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
 * The website's responsive design was tested for all common screen sizes (including Iphone SE, Iphone 8 Plus, Iphone XS, Iphone SE 2nd gen, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?).
+
+![Responsive Image 2](/assets/readme.images/responsive01.png)
+
+[JUMP to TOP](<#contents>)
+
+#### CODE VALIDATION
+
+[THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website has been validated through:
+
+* [W3C Validation Service](https://validator.w3.org/)
+
+![HTML validation](/assets/readme.images/html.png)
+
+* [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
+
+![CSS validation](/assets/readme.images/css.png)
+
+* [JSHint, a JavaScript Code Quality Tool](https://jshint.com/)
+
+[JUMP to TOP](<#contents>)
+
+#### LIGHTHOUSE TESTING
+
+* **Greeting and Game Rules page**
+
+    * Desktop
+
+    ![Lighthouse desktop](/assets/readme.images/lighthouse-page1.png)
+
+    * Mobile
+
+    ![Lighthouse mobile](/assets/readme.images/lighthouse-page1-mobile.png)
+
+* **Game page**
+
+    * Desktop
+
+    ![Lighthouse desktop](/assets/readme.images/lighthouse-page2.png)
+
+    * Mobile
+
+    ![Lighthouse mobile](/assets/readme.images/lighthouse-page2-mobile.png)
+
+[JUMP to TOP](<#contents>)
+
+#### BUGS AND FIXES
+
+##### GITPOD TEMPLATE
+
+Somewhere around the Mid Project review i have realised that i used the [wrong Gitpod template](https://github.com/vivhubb/gitpod-database-config) for the project. Once i realised my mistake I asked for advice from my Mentor and decided to move the project into a new repository using the [correct Gitpod template](https://github.com/vivhubb/gitpod-template). The repository that was created using the wrong template can be accessed [here](https://github.com/vivhubb/rpsls-game). 
+
+[JUMP to TOP](<#contents>)
+
+##### JAVASCRIPT
+
+* **Bugs and Fixes**
+
+    * **Bug:** At the end of the game, the result message stating the winner of the game was the opposite compared to what the scores were showing.
+
+        ![JS bug](/assets/readme.images/js-bug.png)
+
+        * Code
+
+        ![JS bug code](/assets/readme.images/js-bug-code.png)
+
+    * **Fix:** Changing the condition in the innner IF statement solved the problem.
+
+        ![JS fix](/assets/readme.images/js-fix.png)
+
+        * Code
+
+        ![JS fix code](/assets/readme.images/js-fix-code.png)    
+
+* **Warnings**
+
+The first time the code was checked with [JSHint](https://jshint.com/) i have received 41 warinings with 3 "Missing semicolons".
+
+![Javascript warnings 01](/assets/readme.images/javascript01.png) <br>
+![Javascript warnings 02](/assets/readme.images/javascript02.png) &emsp;
+![Javascript warnings 03](/assets/readme.images/javascript03.png) &emsp;
+![Javascript warnings 04](/assets/readme.images/javascript04.png)
+
+Once i have addeed the missing semicolons i have remained with 38 warnings.
+
+![Javascript warnings 05](/assets/readme.images/javascript05.png)
+
+* Two of them regarding: "Functions declared within loops referencing an outer scoped variable may lead to confusing semantics." which i understood can be avoided but it is acceptable according to [Portfolio Project Scope Video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/).
+
+* The rest saying: " 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." which i understood is also an acceptable warning.
+
+![Javascript warnings 06](/assets/readme.images/javascript06.png)
+
+[JUMP to TOP](<#contents>)
 
