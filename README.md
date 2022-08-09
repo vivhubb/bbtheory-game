@@ -30,6 +30,7 @@ At this point the user will have two options to navigate. One of them being the 
                 - [**GREETING & GAME RULES PAGE**](#greeting--game-rules-page)
                 - [**THE GAME PAGE**](#the-game-page)
             - [FUTURE IMPROVEMENT IDEAS](#future-improvement-ideas)
+        - [**TECHNOLOGIES USED**](#technologies-used)
         - [**TESTING**](#testing)
             - [CODE VALIDATION](#code-validation)
             - [LIGHTHOUSE TESTING](#lighthouse-testing)
@@ -185,10 +186,19 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 [JUMP to TOP](<#contents>)
 
+### **TECHNOLOGIES USED**
+
+* **HTML5** used for structuring and presenting the content of the website.
+* **CSS** is the language used for styling the website.
+* **JavaScript** was used to create dynamic and interactive web content.
+* [Balsamiq](https://balsamiq.com/wireframes/) was used for creating the wireframes.
+* [Gitpod](https://www.gitpod.io/) was used in creating and trialing the project's code.
+* [GitHub](https://github.com/) was used for storing and deploying the website.
+
 ### **TESTING**
 
 * The website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
-* The website's responsive design was tested for all common screen sizes (including Iphone SE, Iphone 8 Plus, Iphone XS, Iphone SE 2nd gen, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?).
+* The website's responsive design was tested for all common screen sizes (including iPhone SE, iPhone 12 Pro, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?).
 
 ![Responsive Image 2](/assets/readme.images/responsive01.png)
 
@@ -254,7 +264,7 @@ Somewhere around the Mid Project review i have realised that i used the [wrong G
 
         ![JS bug code](/assets/readme.images/js-bug-code.png)
 
-    * **Fix:** Changing the condition in the innner IF statement solved the problem.
+    * **Fix:** Changing the condition inside the innner IF statement solved the problem.
 
         ![JS fix](/assets/readme.images/js-fix.png)
 

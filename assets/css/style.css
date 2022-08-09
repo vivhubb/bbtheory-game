@@ -107,6 +107,14 @@ body {
     margin: 1em auto;
 }
 
+.scores {
+    margin: 0.2em;
+}
+
+#pScore, #cScore {
+    font-size: 1.5em;
+}
+
 .images {
     width: 180px;
     margin: 1.2em;
@@ -176,36 +184,38 @@ body {
     background-color: #ebc9c3;
 }
 
-#rock:hover {
-    background-color: #eca295;
-}
-
 #paper {
     background-color: #f0edaa;
-}
-
-#paper:hover {
-    background-color: #e6df6b;
 }
 
 #scissors {
     background-color: #f2bcd4;
 }
 
-#scissors:hover {
-    background-color: #f08cb9;
-}
-
 #lizard {
     background-color: #c3e6af;
 }
 
-#lizard:hover {
-    background-color: #92da69;
-}
-
 #spock {
     background-color: #7dc4ed;
+}
+
+/* buttons on hover */
+
+#rock:hover {
+    background-color: #eca295;
+}
+
+#paper:hover {
+    background-color: #e6df6b;
+}
+
+#scissors:hover {
+    background-color: #f08cb9;
+}
+
+#lizard:hover {
+    background-color: #92da69;
 }
 
 #spock:hover {
@@ -238,11 +248,12 @@ body {
     }
 
     .scores {
+        font-size: 0.9em;
         margin: 0.5em;
     }
 
-    .scores, #pScore, #cScore {
-        font-size: 0.7em;
+    #pScore, #cScore {
+        font-size: 1em;
     }
 
     .images {
@@ -310,8 +321,12 @@ body {
         height: 140px;
     }
 
-    .scores, #pScore, #cScore {
-        font-size: 0.5em;
+    .scores {
+        font-size: 0.6em;
+    }
+
+    #pScore, #cScore {
+        font-size: 0.7em;
     }
 
     .player, .computer {
