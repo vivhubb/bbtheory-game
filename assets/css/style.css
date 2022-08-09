@@ -59,7 +59,7 @@ body {
     font-size: 1.2em;
 }
 
-.rules-title {    
+.rules-title {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-underline-offset: 3px;
@@ -99,7 +99,8 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.player, .computer {
+.player,
+.computer {
     width: 300px;
     height: 300px;
     border: 2px solid black;
@@ -111,7 +112,8 @@ body {
     margin: 0.2em;
 }
 
-#pScore, #cScore {
+#pScore,
+#cScore {
     font-size: 1.5em;
 }
 
@@ -180,7 +182,7 @@ body {
     font-size: 5em;
 }
 
-#rock{
+#rock {
     background-color: #ebc9c3;
 }
 
@@ -225,7 +227,9 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 1460px) {
-    .player, .computer {
+
+    .player,
+    .computer {
         width: 400px;
         height: 400px;
     }
@@ -242,7 +246,8 @@ body {
         height: 250px;
     }
 
-    .player, .computer {
+    .player,
+    .computer {
         width: 200px;
         height: 200px;
     }
@@ -252,7 +257,8 @@ body {
         margin: 0.5em;
     }
 
-    #pScore, #cScore {
+    #pScore,
+    #cScore {
         font-size: 1em;
     }
 
@@ -284,7 +290,8 @@ body {
         border-radius: 30px;
     }
 
-    .player, .computer {
+    .player,
+    .computer {
         width: 170px;
         height: 170px;
     }
@@ -316,7 +323,8 @@ body {
         border-radius: 35px;
     }
 
-    .player, .computer {
+    .player,
+    .computer {
         width: 140px;
         height: 140px;
     }
@@ -325,11 +333,13 @@ body {
         font-size: 0.6em;
     }
 
-    #pScore, #cScore {
+    #pScore,
+    #cScore {
         font-size: 0.7em;
     }
 
-    .player, .computer {
+    .player,
+    .computer {
         width: 130px;
         height: 130px;
     }

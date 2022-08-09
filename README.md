@@ -1,5 +1,6 @@
 # **ROCK-PAPER-SCISSORS-LIZARD-SPOCK**
 ## -THE BIG BANG THEORY GAME-
+---
 
 Welcome to [THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website.
 
@@ -11,13 +12,15 @@ At this point the user will have two options to navigate. One of them being the 
 
 ![Responsive Image](/assets/readme.images/responsive0.png)
 
-## **CONTENTS**
+---
+## **TABLE OF CONTENTS**
+---
 
 <!-- TOC -->
 
 - [**ROCK-PAPER-SCISSORS-LIZARD-SPOCK**](#rock-paper-scissors-lizard-spock)
     - [-THE BIG BANG THEORY GAME-](#-the-big-bang-theory-game-)
-    - [**CONTENTS**](#contents)
+    - [**TABLE OF CONTENTS**](#table-of-contents)
         - [**USER EXPERIENCE UX**](#user-experience-ux)
             - [USER STORIES](#user-stories)
             - [WIREFRAMES](#wireframes)
@@ -32,6 +35,8 @@ At this point the user will have two options to navigate. One of them being the 
             - [FUTURE IMPROVEMENT IDEAS](#future-improvement-ideas)
         - [**TECHNOLOGIES USED**](#technologies-used)
         - [**TESTING**](#testing)
+            - [BROWSER COMPATIBILITY](#browser-compatibility)
+            - [RESPONSIVENESS](#responsiveness)
             - [CODE VALIDATION](#code-validation)
             - [LIGHTHOUSE TESTING](#lighthouse-testing)
             - [BUGS AND FIXES](#bugs-and-fixes)
@@ -44,9 +49,12 @@ At this point the user will have two options to navigate. One of them being the 
 
 <!-- /TOC -->
 
+---
 ### **USER EXPERIENCE UX**
+---
 
 #### USER STORIES
+---
 
 * As a user I want to understand the purpose of the site when accessing.
 * As a user I want to be able to navigate through the website easily.
@@ -56,7 +64,9 @@ At this point the user will have two options to navigate. One of them being the 
 * As a user i want to receive constant feedback on the progress of the game.
 * As a user i want to be able to interact with the website.
 
+---
 #### WIREFRAMES
+---
 
 The WIREFRAMES for THE R.P.S.L.S. GAME website were created using [Balsamiq](https://balsamiq.com/), initially to help visualize the project. The plans slightly differ from the website's final look due to developements and new ideas during creation.
 
@@ -66,7 +76,9 @@ The WIREFRAMES for THE R.P.S.L.S. GAME website were created using [Balsamiq](htt
 
 [JUMP to TOP](<#contents>)
 
+---
 ### **SITE STRUCTURE**
+---
 
 [THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website created for the Rock-Paper-Scissors-Lizard-Spock game has two pages.
 
@@ -75,13 +87,18 @@ The WIREFRAMES for THE R.P.S.L.S. GAME website were created using [Balsamiq](htt
 
 [JUMP to TOP](<#contents>)
 
+---
 ### **DESIGN**
+---
 
 #### TYPEFACE
+---
 
 The chosen font for the website was Cormorant SC, which falls back on serif. The choice was made due to the fonts nature of displaying the lowercase letters with an uppercase styling, while still showing the difference between the two. In my opinion the fonts' traits contribute well to the main purpose of the site's creation which is the game.
 
+---
 #### COLOUR SCHEME
+---
 
 The idea for the chosen colour scheme was initiated by the image from the [Greeting & Game Rules Page](https://vivhubb.github.io/bbtheory-game/) that visualizes the game rules. Furthermore, the presence of multiple colors are meant to represent playfulness suggesting "this should be fun".
 
@@ -91,11 +108,13 @@ The idea for the chosen colour scheme was initiated by the image from the [Greet
 
 [JUMP to TOP](<#contents>)
 
+---
 ### **FEATURES**
-
+---
 #### EXISTING FEATURES
-
+---
 ##### **GREETING & GAME RULES PAGE**
+---
 
 * **Title**
 
@@ -134,7 +153,9 @@ Aditionally, there is a link that will take the user to a funny youtube video, w
 
 [JUMP to TOP](<#contents>)
 
+---
 ##### **THE GAME PAGE**
+---
 
 * **Title**
 
@@ -176,7 +197,9 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 [JUMP to TOP](<#contents>)
 
+---
 #### FUTURE IMPROVEMENT IDEAS
+---
 
 * Figure out a way to shorten the below section in the game's javascript code. (I have already started working on this in another repository mentioned in the [Bugs and Fixes section](<#gitpod-template>)).
 
@@ -186,7 +209,9 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 [JUMP to TOP](<#contents>)
 
+---
 ### **TECHNOLOGIES USED**
+---
 
 * **HTML5** used for structuring and presenting the content of the website.
 * **CSS** is the language used for styling the website.
@@ -195,16 +220,28 @@ The overall look of the game area can be associated with a "robotic face" which 
 * [Gitpod](https://www.gitpod.io/) was used in creating and trialing the project's code.
 * [GitHub](https://github.com/) was used for storing and deploying the website.
 
+---
 ### **TESTING**
+---
 
-* The website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
-* The website's responsive design was tested for all common screen sizes (including iPhone SE, iPhone 12 Pro, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?).
+#### BROWSER COMPATIBILITY
+---
+
+* The website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge. No issues were discovered during testing, the website appeared to be fully functional and responsive.
+
+---
+#### RESPONSIVENESS
+---
+
+* The website's responsive design was tested for all common screen sizes (including iPhone SE, iPhone 12 Pro, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive?). The website seems to respond to the user’s behaviour and environment based on screen size, platform and orientation.
 
 ![Responsive Image 2](/assets/readme.images/responsive01.png)
 
 [JUMP to TOP](<#contents>)
 
+---
 #### CODE VALIDATION
+---
 
 [THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website has been validated through:
 
@@ -218,11 +255,16 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 * [JSHint, a JavaScript Code Quality Tool](https://jshint.com/)
 
+    - more details in the [Bugs and Fixes section](<#javascript>).
+
 [JUMP to TOP](<#contents>)
 
+---
 #### LIGHTHOUSE TESTING
+---
 
 * **Greeting and Game Rules page**
+---
 
     * Desktop
 
@@ -232,7 +274,9 @@ The overall look of the game area can be associated with a "robotic face" which 
 
     ![Lighthouse mobile](/assets/readme.images/lighthouse-page1-mobile.png)
 
+---
 * **Game page**
+---
 
     * Desktop
 
@@ -244,15 +288,20 @@ The overall look of the game area can be associated with a "robotic face" which 
 
 [JUMP to TOP](<#contents>)
 
+---
 #### BUGS AND FIXES
+---
 
 ##### GITPOD TEMPLATE
+---
 
 Somewhere around the Mid Project review i have realised that i used the [wrong Gitpod template](https://github.com/vivhubb/gitpod-database-config) for the project. Once i realised my mistake I asked for advice from my Mentor and decided to move the project into a new repository using the [correct Gitpod template](https://github.com/vivhubb/gitpod-template). The repository that was created using the wrong template can be accessed [here](https://github.com/vivhubb/rpsls-game). 
 
 [JUMP to TOP](<#contents>)
 
+---
 ##### JAVASCRIPT
+---
 
 * **Bugs and Fixes**
 
@@ -293,9 +342,12 @@ Once i have addeed the missing semicolons i have remained with 38 warnings.
 
 [JUMP to TOP](<#contents>)
 
+---
 ### **DEPLOYMENT**
+---
 
 * **Deploying the website**
+---
 
 The website was deployed to GitHub pages, steps are listed below:
 
@@ -306,7 +358,9 @@ The website was deployed to GitHub pages, steps are listed below:
 
 ![deploying the website](/assets/readme.images/deploy.png)
 
+---
 * **Forking GitHub repository**
+---
 
 Forking a repository means to create a copy which allows to freely experiment in making changes without affecting the original project.
 
@@ -315,7 +369,9 @@ Forking a repository means to create a copy which allows to freely experiment in
 
 ![fork repository](/assets/readme.images/fork.png)
 
+---
 * **Cloning GitHub repository**
+---
 
 Cloning repository creates a local copy on the computer for the remote GitHub repository.
 
@@ -331,9 +387,12 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 
 [JUMP to TOP](<#contents>)
 
+---
 ### **CREDITS**
+---
 
 #### CONTENT and MEDIA
+---
 
 * Font implemented from [Google Fonts](https://fonts.google.com/)
 * Icons for choices were taken from [Font Awesome](https://fontawesome.com/)
@@ -350,7 +409,9 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 * The sound effects were trimmed using: [Audio Trimmer](https://audiotrimmer.com/)
 * Some sound's speed was changed using [Audio Trimmers's speed changer](https://audiotrimmer.com/audio-speed-changer/)
 
+---
 #### RECOGNITION
+---
 
 The website was created for [Code Institute](https://codeinstitute.net/)'s Full Stack Software Development Diploma Course as the second Milestone Project.
 

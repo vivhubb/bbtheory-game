@@ -47,15 +47,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 game(playerChoice);
             });
         } else {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 explain.innerText = '';
                 result.innerText = '';
-            
+
                 resetScores();
                 resetZones();
-            
+
                 this.hidden = true;
-            
+
                 for (let choice of choices) {
                     document.getElementById(choice).disabled = false;
                 }
@@ -159,11 +159,11 @@ function winnerPerRound(playerChoice, computerChoice) {
         result.innerText = playerWon;
     } else {
         incrementComputerScore();
-        result.innerText = computerWon;     
-    }    
+        result.innerText = computerWon;
+    }
     explain.innerText = array[1];
 
-    if(audio != null) {
+    if (audio != null) {
         audio.play();
     }
 }
@@ -181,7 +181,7 @@ function getAudio(playerChoice, computerChoice) {
 
     let winnerMessage = winners[playerChoice][computerChoice];
 
-    if (typeof(winnerMessage) === 'undefined') {
+    if (typeof (winnerMessage) === 'undefined') {
         winnerMessage = winners[computerChoice][playerChoice];
     }
 
