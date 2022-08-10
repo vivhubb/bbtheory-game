@@ -59,7 +59,7 @@ At this point the user will have two options to navigate. One of them being the 
 * As a user I want to understand the purpose of the site when accessing.
 * As a user I want to be able to navigate through the website easily.
 * As a user I want to clearly understand the information provided on the website.
-* As a user I want to find out more about about where the idea of the game is coming from.
+* As a user I want to find out more about where the idea of the game is coming from.
 * As a user I want to play a game.
 * As a user i want to receive constant feedback on the progress of the game.
 * As a user i want to be able to interact with the website.
@@ -82,7 +82,7 @@ The WIREFRAMES for THE R.P.S.L.S. GAME website were created using [Balsamiq](htt
 
 [THE R.P.S.L.S. GAME](https://vivhubb.github.io/bbtheory-game/) website created for the Rock-Paper-Scissors-Lizard-Spock game has two pages.
 
-* [Greeting & Game Rules Page](https://vivhubb.github.io/bbtheory-game/) which is the default loading page welcoming the user and displaying instructions and game rules.
+* [Greeting & Game Rules Page](https://vivhubb.github.io/bbtheory-game/) which is the default loading page, welcoming the user and displaying instructions and game rules.
 * [Game Page](https://vivhubb.github.io/bbtheory-game/game.html) which is holding the game itself.
 
 [JUMP to TOP](<#contents>)
@@ -118,8 +118,8 @@ The idea for the chosen colour scheme was initiated by the image from the [Greet
 
 * **Title**
 
-**The main title** displays Rock-Paper-Scissors-Lizard-Spock stating clearly what the website is about. <br>
-**The subtitle** displays -The Big Bang Theory Game- complementing the main title and giving further explanation on the website's thematics and purpose.
+    - **The main title** displays Rock-Paper-Scissors-Lizard-Spock stating clearly what the website is about. <br>
+    - **The subtitle** displays -The Big Bang Theory Game- complementing the main title and giving further explanation on the website's thematics and purpose.
 
 ![Title](/assets/readme.images/title.png)
 
@@ -147,7 +147,7 @@ This is followed by a link that will take the user to the [Game Page](https://vi
 
 ![Link to the Game Page](/assets/readme.images/link02.png)
 
-Aditionally, there is a link that will take the user to a funny youtube video, which is a part from the American Sitcom called The Big Bang Theory, where one of the main characters explains the game rules to his friends.
+Additionally, there is a link that will take the user to a funny youtube video, which is a part from the American Sitcom called *The Big Bang Theory*, where one of the main characters explains the game rules to his friends.
 
 ![Youtube Video](/assets/readme.images/link03.png)
 
@@ -160,13 +160,13 @@ Aditionally, there is a link that will take the user to a funny youtube video, w
 * **Title**
 
 **The main title** displays Rock-Paper-Scissors-Lizard-Spock stating clearly what the website is about. <br>
-**The subtitle** displays -The Big Bang Theory Game- complementing the main title and giving further explanation on the website's thematics and purpose.
+**The subtitle** displays *-The Big Bang Theory Game-* complementing the main title and giving further explanation on the website's thematics and purpose.
 
 ![Game Page Title](/assets/readme.images/title02.png)
 
 * **Link**
 
-Below the title there is a link that will take the user back to the [Game Rules Page](https://vivhubb.github.io/bbtheory-game/).
+Below the title there is a link (that will trigger a confirmation box) that will take the user back to the [Game Rules Page](https://vivhubb.github.io/bbtheory-game/).
 
 ![Link to the Game Rules Page](/assets/readme.images/link04.png)
 
@@ -193,7 +193,7 @@ Once the game is over and a winner is called, the buttons for choice options (Ro
 
 ![Game over](/assets/readme.images/game-over.png)
 
-The overall look of the game area can be associated with a "robotic face" which fits well with the site's purpose (being a game) as well as with the theme of The Big Bang Theory, where most of the characters are geniuses and scientists.
+The overall look of the game area can be associated with a "robotic face" which fits well with the site's purpose (being a game) as well as with the theme of *The Big Bang Theory*, where most of the characters are geniuses and scientists.
 
 [JUMP to TOP](<#contents>)
 
@@ -266,11 +266,11 @@ The overall look of the game area can be associated with a "robotic face" which 
 * **Greeting and Game Rules page**
 ---
 
-    * Desktop
+* Desktop
 
     ![Lighthouse desktop](/assets/readme.images/lighthouse-page1.png)
 
-    * Mobile
+* Mobile
 
     ![Lighthouse mobile](/assets/readme.images/lighthouse-page1-mobile.png)
 
@@ -278,11 +278,11 @@ The overall look of the game area can be associated with a "robotic face" which 
 * **Game page**
 ---
 
-    * Desktop
+* Desktop
 
     ![Lighthouse desktop](/assets/readme.images/lighthouse-page2.png)
 
-    * Mobile
+* Mobile
 
     ![Lighthouse mobile](/assets/readme.images/lighthouse-page2-mobile.png)
 
@@ -400,7 +400,7 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 * The color palette was also made using [Color Picker](https://imagecolorpicker.com/en)
 * Wireframes were created using [Balsamiq](https://balsamiq.com/)
 * Idea for favicon in website's title from: [Love Maths Walkthrough Project](https://github.com/vivhubb/love-maths)
-* Images displayed in the game area were found on: [Free Icons Library](https://icon-library.com/) which redirected to: [Programmable Search Engine](https://cse.google.com/cse?cx=4796b5020fbeaf2e6&q=rock%20paper%20scissors%20lizard%20spock&oq=rock%20paper%20scissors%20lizard%20spock&gs_l=partner-web.3...19781.19781.0.20493.0.0.0.0.0.0.0.0..0.0.csems%2Cnrl%3D13...0.119j14161j2...1.34.partner-web..0.0.0.)
+* Images displayed in the game area were found searching on: [Free Icons Library](https://icon-library.com/) which redirected to: [Programmable Search Engine](https://cse.google.com/cse?cx=4796b5020fbeaf2e6&q=rock%20paper%20scissors%20lizard%20spock&oq=rock%20paper%20scissors%20lizard%20spock&gs_l=partner-web.3...19781.19781.0.20493.0.0.0.0.0.0.0.0..0.0.csems%2Cnrl%3D13...0.119j14161j2...1.34.partner-web..0.0.0.)
 * Images displayed in the game area were cropped using: [Case converter](https://www.caseconverter.online/circle-image-crop)
 * Image displaying the game rules was taken from: [The Big Bang Theory Wiki | Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock?file=RPSLS.png)
 * The colorful background image is from [PNGtree](https://pngtree.com/freebackground/pastel-colorful-background-clouds_1162170.html)
